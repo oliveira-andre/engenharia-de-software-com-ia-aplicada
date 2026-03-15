@@ -22,8 +22,7 @@ To report errors or ask questions, please use the recommended channels.
 
 ### What students cannot do
 
-- Use the materials for commercial purposes.
-- Distribute modified versions of the content.
+- Use or distribute the materials for commercial purposes.
 - Present the materials as their own without proper attribution.
 
 ---
