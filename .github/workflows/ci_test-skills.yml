@@ -1,0 +1,44 @@
+name: 'CI — Tests'
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - '.github/workflows/ci_test-skills.yml'
+      - 'skills/**'
+  pull_request:
+    paths:
+      - '.github/workflows/ci_test-skills.yml'
+      - 'skills/**'
+  workflow_dispatch:
+
+jobs:
+  skills:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+    name: Skills
+    steps:
+      - name: ➕ Actions - Checkout
+        uses: actions/checkout@v6
+
+      - name: ➕ Actions - Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          check-latest: true
+          node-version: lts/*
+
+      - name: ➕ Cache dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~/.npm
+          key: npm-skills-${{ hashFiles('skills/package-lock.json') }}
+          restore-keys: npm-skills-
+
+      - name: 📦 Installing Dependencies
+        run: npm --prefix skills ci
+
+      - name: 🧪 Running Tests
+        run: npm --prefix skills test

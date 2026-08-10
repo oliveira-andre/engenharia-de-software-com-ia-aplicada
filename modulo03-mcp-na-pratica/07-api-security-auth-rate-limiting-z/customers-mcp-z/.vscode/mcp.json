@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "customers-mcp": {
+      "command": "node",
+      "args": ["--experimental-strip-types", "./src/index.ts"],
+      "env": {
+        "SERVICE_TOKEN": "4e94ee95-7b79-4d2c-a5e0-4c30085bd221"
+      },
+    }
+  }
+}

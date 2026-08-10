@@ -1,0 +1,12 @@
+{
+  "name": "windowsfy",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "poku -r=compact"
+  },
+  "devDependencies": {
+    "poku": "^4.3.1"
+  }
+}

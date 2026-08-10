@@ -208,11 +208,9 @@ Projeto em [exemplo-06-playwright-testes/](./modulo01-fundamentos-de-ia-e-llms-p
 
 Projeto em [exemplo-07-playwright-navegacao/](./modulo01-fundamentos-de-ia-e-llms-para-programadores/exemplo-07-playwright-navegacao/)
 
-
 #### 8.4 - Usando IA para consultar documentações atualizadas
 
 Projeto em [exemplo-08-context7/](./modulo01-fundamentos-de-ia-e-llms-para-programadores/exemplo-08-context7/)
-
 
 - https://github.com/upstash/context7#installation
 - https://github.com/ChromeDevTools/chrome-devtools-mcp
@@ -221,7 +219,6 @@ Projeto em [exemplo-08-context7/](./modulo01-fundamentos-de-ia-e-llms-para-progr
 - https://context7.com/websites/nodejs_api
 - https://nextjs.org/
 - https://www.better-auth.com/
-
 
 #### 8.5 - Usando IA para colher dados de telemetria de apps
 
@@ -276,7 +273,6 @@ Projeto em [exemplo-12-embeddings-neo4j/](./modulo01-fundamentos-de-ia-e-llms-pa
 - https://neo4j.com/
 - https://docs.langchain.com/oss/javascript/integrations/text_embedding/transformers
 
-
 #### 10.3 - Criando o primeiro RAG com JavaScript e Neo4j
 
 Projeto em [exemplo-13-embeddings-neo4j-rag/](./modulo01-fundamentos-de-ia-e-llms-para-programadores/exemplo-13-embeddings-neo4j-rag/)
@@ -285,6 +281,145 @@ Projeto em [exemplo-13-embeddings-neo4j-rag/](./modulo01-fundamentos-de-ia-e-llm
 
 ---
 
-## Problemas no Windows
+## Modulo 05 - Ferramentas de IA para UI e UX
 
-- [Falha ao instalar o `@tensorflow/tfjs-node`](./windows/tensorflow.md)
+### Engines de IA & Prototipação Conversacional
+*   [Google AI Studio](https://aistudio.google.com/) — Laboratório analítico para engenharia de contexto, parametrização determinística de temperatura e manipulação de instruções de sistema.
+*   [Google Stitch](https://stitch.withgoogle.com) — Agente de design conversacional focado em geração de estruturas semânticas limpas para web desktop.
+*   [Google Jules](https://jules.google/) — Agente autônomo na nuvem integrado ao ciclo de vida Git para geração de features e barramento de dados full-stack.
+
+### IDEs e Protocolos de Contexto
+*   [Antigravity Workspace](https://antigravity.dev/) — IDE focada em inteligência nativa e suporte centralizado ao Model Context Protocol.
+
+### Design Systems e Artefatos Visuais
+*   [Figma](https://www.figma.com/) — Handoff de especificações técnicas de alta fidelidade (Auto-layout, flexbox, paddings e gaps) através da extração via *Dev Mode*.
+*   [Mermaid Live Editor](https://mermaid.live) — Renderização e versionamento de diagramas dinâmicos baseados em código Markdown corporativo.
+
+### Frameworks & Ferramentas de Linha de Comando (CLI)
+*   [Firebase Genkit](https://genkit.dev/) — Framework de IA de código aberto do Google para integração, orquestração e tipagem estrita de LLMs no back-end.
+*   [Nx Dev Tools](https://nx.dev) — Sistema de compilação inteligente e monorepo focado na governança de projetos enterprise de grande escala.
+*   [OpenSpec](https://openspec.dev/) — Motor de contratos utilizado para a imposição do padrão BDD e orquestração de microsserviços e testes concorrentes em worktrees.
+
+## Modulo 06 - AI-Ops e Engenharia Agêntica (Nexus)
+
+Projeto completo em [modulo06-aiops-engenharia-agentica](./modulo06-aiops-engenharia-agentica/) — trilha **Nexus AI-Ops** com 12 laboratórios práticos que evoluem de IA consultiva até um ecossistema de agentes autônomos que operam infraestrutura real sob governança.
+
+### Laboratórios (Projetos)
+*   [Módulo 1 — Fundamentos de IA para DevOps](./modulo06-aiops-engenharia-agentica/labs/modulo1_foundation.py) — IA consultiva aplicada a operações.
+*   [Módulo 2 — IaC Copilot & Security Governance](./modulo06-aiops-engenharia-agentica/labs/modulo2_iac_copilot.py) — geração assistida de Terraform HCL com auditoria de conformidade.
+*   [Módulo 3 — Kubernetes AI-Ops](./modulo06-aiops-engenharia-agentica/labs/modulo3_k8s_ops.py) — manifestos blindados, reconciliação declarativa e análise de deploy Canary.
+*   [Módulo 4 — Troubleshooting com ReAct](./modulo06-aiops-engenharia-agentica/labs/modulo4_troubleshooting.py) — investigação de incidentes (CrashLoop/OOMKilled) com Prometheus e Jaeger.
+*   [Módulo 5 — AIOps Preditivo](./modulo06-aiops-engenharia-agentica/labs/modulo5_aiops.py) — linguagem natural para PromQL e previsão de saturação via regressão.
+*   [Módulo 6 — ChatOps e Governança](./modulo06-aiops-engenharia-agentica/labs/modulo6_chatops.py) — operação via chat com Human-in-the-loop.
+*   [Módulo 7 — DevSecOps + AI](./modulo06-aiops-engenharia-agentica/labs/modulo7_devsecops.py) — auditoria de scans Trivy e priorização de CVEs.
+*   [Módulo 8 — CI/CD Copilot](./modulo06-aiops-engenharia-agentica/labs/modulo8_cicd.py) — otimização de workflows do GitHub Actions com cache.
+*   [Módulo 9 — FinOps e Otimização](./modulo06-aiops-engenharia-agentica/labs/modulo9_finops.py) — caça a recursos "zumbis" na nuvem e cálculo de ROI.
+*   [Módulo 10 — RAG de Runbooks](./modulo06-aiops-engenharia-agentica/labs/modulo10_remediation.py) — auto-remediação baseada em documentos corporativos.
+*   [Módulo 11 — Guardrails e Governança](./modulo06-aiops-engenharia-agentica/labs/modulo11_guardrails.py) — pipeline autônomo com aprovação dry-run em linha.
+*   [Módulo 12 — Projeto Final (Orquestração Hierárquica)](./modulo06-aiops-engenharia-agentica/labs/modulo12_projeto_final.py) — incidente multidomínio coordenado pelo Nexus Manager.
+
+### Frameworks & Motores de IA
+*   [CrewAI](https://www.crewai.com/) — orquestração de agentes autônomos em formato hierárquico.
+*   [Groq](https://groq.com/) — inferência de baixa latência dos modelos Llama 3.x (motor central do projeto).
+*   [Ollama](https://ollama.com/) — execução local de modelos open-source.
+*   [Streamlit](https://streamlit.io/) — painéis visuais interativos (CLI e dashboard AI-Ops).
+
+### Observabilidade & AIOps
+*   [Prometheus](https://prometheus.io/) — coleta de métricas e linguagem de consulta PromQL.
+*   [Jaeger](https://www.jaegertracing.io/) — distributed tracing para análise de causa raiz.
+*   [Grafana](https://grafana.com/) — dashboards e visualização de alertas preditivos.
+
+### Segurança & Governança
+*   [Trivy](https://trivy.dev/) — scanner de vulnerabilidades de imagens (ex.: backdoor [CVE-2024-3094](https://avd.aquasec.com/nvd/cve-2024-3094) no pacote XZ).
+*   [Open Policy Agent (OPA)](https://www.openpolicyagent.org/) — validação de políticas de conformidade (HCL Sandbox).
+
+### Infraestrutura & Plataforma
+*   [Kubernetes](https://kubernetes.io/) — orquestração de contêineres e GitOps.
+*   [Terraform](https://www.terraform.io/) — Infraestrutura como Código (HCL) declarativa.
+*   [LocalStack](https://www.localstack.cloud/) — emulação local de serviços AWS (S3 Bucket Explorer).
+*   [GitHub Actions](https://docs.github.com/actions) — pipelines de CI/CD.
+
+## Modulo 07 - Ferramentas de IA para Gestão de Projetos
+
+Disciplina completa em [modulo07-ferramentas-de-ia-para-gestao-de-projetos](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/) — pipeline de gestão assistida por IA construído sobre um caso único, o **RouteWise** (gestão de frota com 140 veículos), da transcrição de uma reunião de discovery até um portfólio com OKRs validados. Cada módulo entrega um prompt reutilizável, dados de exemplo e atividade prática.
+
+### As 10 ferramentas da disciplina
+*   [Módulo 1 — Requirements Copilot](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-01-planejamento-e-escopo/) — transcrição de reunião → backlog estruturado com User Stories, Gherkin e nível de confiança.
+*   [Módulo 2 — Backlog Scorer](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-02-priorizacao-de-backlog/) — priorização defensável com RICE e WSJF.
+*   [Módulo 3 — Scheduling Prompt](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-03-cronograma-e-capacidade/) — cronograma com dependências e simulações what-if.
+*   [Módulo 4 — Probability Forecast](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-04-estimativas-e-previsoes/) — PERT + Monte Carlo (P50/P85/P95), com scripts JS e Python executáveis.
+*   [Módulo 5 — Risk Monitor](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-05-riscos-e-aiops/) — detecção de anomalias de fluxo antes da Sprint Review.
+*   [Módulo 6 — Meeting Digest](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-06-reunioes-turbinadas/) — reunião → ata, ações com responsável e cards prontos para o Jira.
+*   [Módulo 7 — Status Report](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-07-status-reports/) — o mesmo dado bruto em três relatórios para três audiências.
+*   [Módulo 8 — Compliance Checklist + Danger](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-08-governanca-e-compliance/) — governança como código no pipeline de CI/CD (Danger.js e Python).
+*   [Módulo 9 — NL to Workflow](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-09-automacao-de-ecossistema/) — Slack → Jira com parser de linguagem natural (Make.com sem código ou Node.js).
+*   [Módulo 10 — OKR Aligner](./modulo07-ferramentas-de-ia-para-gestao-de-projetos/modulo-10-portfolio-e-okrs/) — validação de OKRs, alinhamento de backlog e scorecard de portfólio.
+
+### Leituras Recomendadas
+*   [RICE Prioritization Framework](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) — Sean McBride, Intercom. Origem do framework usado no módulo 2.
+*   [WSJF — Weighted Shortest Job First](https://framework.scaledagile.com/wsjf) — Donald Reinertsen / Scaled Agile Framework (SAFe). Base do Custo do Atraso usado no módulo 2.
+*   [MoSCoW Prioritisation](https://www.agilebusiness.org/dsdm-project-framework/moscow-prioritisation.html) — Dai Clegg, DSDM / Agile Business Consortium (1994). Filtro pré-scoring usado no módulo 2.
+*   [PERT — Program Evaluation and Review Technique](https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique) — desenvolvido pela Marinha americana no programa Polaris (1958). Base do módulo 4.
+*   [Planning Fallacy](https://en.wikipedia.org/wiki/Planning_fallacy) — Kahneman & Tversky (1979). Viés cognitivo que justifica a estimativa de três pontos no módulo 4.
+*   [IBM Cost of a Data Breach Report 2025](https://www.ibm.com/reports/data-breach) — dado citado no módulo 8 sobre o ROI de DevSecOps maduro.
+
+### Ferramentas & Plataformas
+*   [Google AI Studio](https://aistudio.google.com/) — engine de todas as demos (system prompts + temperatura calibrada por tarefa).
+*   [Jira Cloud](https://www.atlassian.com/software/jira) — board Scrum do caso RouteWise (import CSV incluído no módulo 1).
+*   [Make.com](https://www.make.com/) — automação sem código Slack → Jira (blueprint importável no módulo 9).
+*   [Danger.js](https://danger.systems/js/) — regras de conformidade automatizadas em Pull Requests.
+*   [Slack API](https://api.slack.com/) — bots, webhooks e notificações de projeto.
+
+## Modulo 08 - Arquitetura de Sistemas com IA
+
+Disciplina completa em [modulo08-arquitetura-de-sistemas-com-ia](https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada/blob/main/modulo08-arquitetura-de-sistemas-com-ia) — os padrões de arquitetura de referência para sistemas de IA agêntica, construídos sobre um caso único, o **TrialForge** (Vitalis Pharma, geração de documentos clínicos regulatórios), do diagrama de referência (Gateway → Orquestrador → Modelo+RAG → Approval Gate, com banda de Observabilidade) até um protótipo enterprise com model tiering e trilha de auditoria. Cada módulo entrega um canvas de decisão, protótipos executáveis (JS e Python com paridade funcional) e atividade prática.
+
+### Os 5 módulos da disciplina
+*   [Módulo 1 — Fundamentos AI-First](https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada/blob/main/modulo08-arquitetura-de-sistemas-com-ia/modulo-01-fundamentos-ai-first) — diagrama de referência e framework de decisão agente-vs-regra, com `decision-framework-tool` executável.
+*   [Módulo 2 — Single-Agent](https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada/blob/main/modulo08-arquitetura-de-sistemas-com-ia/modulo-02-single-agent) — anatomia do agente, loop ReAct, reflexão e ferramentas/MCP, com protótipo rodando contra Ollama local.
+*   [Módulo 3 — Multi-Agent](https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada/blob/main/modulo08-arquitetura-de-sistemas-com-ia/modulo-03-multi-agent) — por que múltiplos agentes, 6 padrões de orquestração (Sequential, Parallel, Supervisor, Hierarchical, Group Chat, Handoff) e tratamento de falha distribuída (CAP + Saga).
+*   [Módulo 4 — Padrões AI-Específicos](https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada/blob/main/modulo08-arquitetura-de-sistemas-com-ia/modulo-04-padroes-ai-especificos) — RAG avançado, roteamento de modelo, cache semântico e Approval Gate formalizado num gateway único.
+*   [Módulo 5 — Arquitetura Enterprise](https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada/blob/main/modulo08-arquitetura-de-sistemas-com-ia/modulo-05-arquitetura-enterprise) — stack completo, observabilidade em escala, implantação híbrida e model tiering em cascata com trilha de auditoria.
+
+### Leituras Recomendadas
+*   [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) — Yao et al., ICLR 2023. Fundamenta o loop Pensamento-Ação-Observação usado no módulo 2.
+*   [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) — Lewis et al. (Meta AI), NeurIPS 2020. Paper seminal do RAG, base do módulo 4.
+*   [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem) — Eric Brewer (2000), demonstrado formalmente por Gilbert & Lynch (2002). Base dos trade-offs de consistência e disponibilidade discutidos no módulo 3.
+*   [Model Context Protocol](https://modelcontextprotocol.io/) — Anthropic, novembro de 2024. Padrão aberto de ferramentas apresentado no módulo 2.
+*   [Agent2Agent Protocol (A2A)](https://a2a-protocol.org/) — Google, abril de 2025, doado à Linux Foundation em junho de 2025. Protocolo de comunicação entre agentes citado no módulo 3.
+*   [Why AI Projects Fail and How They Can Succeed](https://www.rand.org/pubs/research_reports/RRA2680-1.html) — RAND Corporation, 2025. Dado usado para embasar a taxa real de fracasso de projetos de IA que abre a disciplina.
+
+### Ferramentas & Plataformas
+*   [Ollama](https://ollama.com/) — engine local padrão de todos os protótipos (`gemma4:e2b`), gratuito e sem chave de API.
+*   [Claude (Anthropic)](https://www.anthropic.com/), [Gemini (Google)](https://gemini.google.com/), [GPT (OpenAI)](https://openai.com/) — alternativas pagas de referência nos protótipos (`provedores-pagos.js/.py`).
+
+## Resolvendo Problemas Comuns
+
+- [Problemas comuns com **Docker**](./troubleshooting/docker.md)
+- [Problemas comuns no **Windows**](./troubleshooting/windows/commons.md)
+  - [Configurar **WSL**](./troubleshooting/windows/wsl.md)
+
+### Skills de Suporte
+
+#### Windowsfy
+
+Skill focada em adaptar os exercícios para **Windows** nativo de forma personalizada por aluno.
+
+**Instalação:**
+
+```sh
+npx -y skills add https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada --skill windowsfy
+```
+
+**Uso:**
+
+```
+/windowsfy ./
+/windowsfy modulo01-fundamentos-de-ia-e-llms-para-programadores/exemplo-00-template
+```
+
+```
+<Cole a mensagem de erro>
+
+/windowsfy <caminho do exemplo>
+```

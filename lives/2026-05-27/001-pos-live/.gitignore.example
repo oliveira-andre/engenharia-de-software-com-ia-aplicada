@@ -1,0 +1,7 @@
+# Normalmente, o source do spec-kit costuma ser "commitado", mas é possível escolher o que ir ou não bpara o Git, por exemplo:
+.claude/skills/speckit-*
+/.specify
+
+# Adicionando exceções para arquivos importantes dentro dos diretórios ignorados:
+!/.specify/memory
+!/.specify/feature.json
