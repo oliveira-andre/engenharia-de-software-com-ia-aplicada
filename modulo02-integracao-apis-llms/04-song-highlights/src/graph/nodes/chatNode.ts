@@ -3,11 +3,12 @@ import { OpenRouterService } from '../../services/openrouterService.ts';
 import type { GraphState } from '../graph.ts';
 import { ChatResponseSchema, getSystemPrompt, getUserPromptTemplate } from '../../prompts/v1/chatResponse.ts';
 import { AIMessage, HumanMessage } from '@langchain/core/messages';
+import { PreferencesService } from '../../services/preferencesService.ts';
 
-export function createChatNode(llmClient: OpenRouterService) {
+export function createChatNode(llmClient: OpenRouterService, preferencesService: PreferencesService) {
   return async (state: GraphState, runtime?: Runtime): Promise<Partial<GraphState>> => {
-
-    const userContext = '';
+    const userId = String(runtime?.context?.userId || state?.userId || 'unknown');
+    const userContext = state.userContext ?? await preferencesService.getBasicInfo(userId);
     const systemPrompt = getSystemPrompt(userContext);
 
     const conversationHistory = state.messages
