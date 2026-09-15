@@ -14,7 +14,7 @@ import { createSummarizationNode } from './nodes/summarizationNode.ts';
 import { createSavePreferencesNode } from './nodes/savePreferencesNode.ts';
 import { routeAfterChat, routeAfterSavePreferences } from './nodes/edgeConditions.ts';
 import { PreferencesService } from "../services/preferencesService.ts";
-import { MemoryService } from "../services/memoryService.ts";
+import { type MemoryService } from "../services/memoryService.ts";
 
 const ChatStateAnnotation = z.object({
   messages: withLangGraph(
