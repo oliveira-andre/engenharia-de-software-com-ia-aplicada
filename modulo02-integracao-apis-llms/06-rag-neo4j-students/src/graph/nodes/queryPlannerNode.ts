@@ -32,9 +32,7 @@ export function createQueryPlannerNode(llmClient: OpenRouterService) {
       console.log(`Complex query - ${data.subQuestions.length} steps:${subQuestionsFormatted}`)
 
       return {
-        // TODO: deixar como false depois para cair nos outros nós
-        // isMultiStep: true,
-        isMultiStep: false,
+        isMultiStep: true,
         subQuestions: data.subQuestions,
         currentStep: 0,
         subQueries: [],
